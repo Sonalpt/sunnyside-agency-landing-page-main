@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'Fraunces-Black';
+    src: url(../policies/Fraunces/static/Fraunces/Fraunces-Black.ttf);
+}
+@font-face {
+    font-family: 'Fraunces-Bold';
+    src: url(../policies/Fraunces/static/Fraunces/Fraunces-Bold.ttf);
+}
+@font-face {
+    font-family: 'Barlow-SemiBold';
+    src: url(../policies/Barlow/Barlow-SemiBold.ttf);
+}
+
+
+
+
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+
+.header {
+    margin: 0;
+    color: white;
+    background-image: url(../images/desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    nav {
+        display: flex;
+        justify-content: space-between;
+        img {
+            padding: 20px;
+        }
+        ul {
+            font-size: 18px;
+            font-family: 'Barlow-SemiBold', sans-serif;
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            padding-right: 20px;
+            margin-bottom: 10px;
+            li {
+                padding-right: 50px;
+            }
+        }
+    }
+    h1 {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Fraunces-Black', sans-serif;
+        font-size: 58px;
+        position: relative;
+        top: 100px;
+        word-spacing: 15px;
+        img {
+            position: relative;
+            top: 90px;
+        }
+    }
+}
+
+
+
+.grid-containers {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 600px 600px 600px;
+    grid-template-areas: 
+    "container__1 container__2"
+    "container__3 container__4"
+    "container__5 container__6"
+    ;
+    .grid-containers__container__1 {
+        grid-area: container__1;
+        padding-top: 120px;
+        padding-left: 140px;
+        padding-right: 80px;
+        text-align: justify;
+        h2 {
+            font-family: 'Fraunces-Black',sans-serif;
+            font-size: 40px;
+        }
+        p {
+            font-family: 'Barlow-SemiBold',sans-serif;
+            color: #808397;
+        }
+        span {
+            font-family: 'Fraunces-Black',sans-serif;
+            font-size: 18px;
+        }
+    }
+    .grid-containers__container__2 {
+        grid-area: container__2;
+        background-image: url(../images/desktop/image-transform.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .grid-containers__container__3 {
+        grid-area: container__3;
+        background-image: url(../images/desktop/image-stand-out.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .grid-containers__container__4 {
+        grid-area: container__4;
+        padding-top: 120px;
+        padding-left: 140px;
+        padding-right: 80px;
+        text-align: justify;
+        h2 {
+            font-family: 'Fraunces-Black',sans-serif;
+            font-size: 40px;
+        }
+        p {
+            font-family: 'Barlow-SemiBold',sans-serif;
+            color: #808397;
+        }
+        span {
+            font-family: 'Fraunces-Black',sans-serif;
+            font-size: 18px;
+        }
+    }
+    .grid-containers__container__5 {
+        grid-area: container__5;
+        background-image: url(../images/desktop/image-graphic-design.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        h3 {
+            text-align: center;
+            font-family: 'Fraunces-Black',sans-serif;
+            font-size: 28px;
+            color: #24554A;
+            position: relative;
+            top: 350px;
+        }
+        p {
+            text-align: center;
+            font-family: 'Barlow-SemiBold',sans-serif;
+            font-size: 16px;
+            color: #3E7467;
+            padding-left: 150px;
+            padding-right: 150px;
+            position: relative;
+            top: 350px;
+        }
+    }
+    .grid-containers__container__6 {
+        grid-area: container__6;
+        background-image: url(../images/desktop/image-photography.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        h3 {
+            text-align: center;
+            font-family: 'Fraunces-Black',sans-serif;
+            font-size: 28px;
+            color: #052C3B;
+            position: relative;
+            top: 350px;
+        }
+        p {
+            text-align: center;
+            font-family: 'Barlow-SemiBold',sans-serif;
+            font-size: 16px;
+            color: #19536C;
+            padding-left: 150px;
+            padding-right: 150px;
+            position: relative;
+            top: 350px;
+        }
+    }
+}
