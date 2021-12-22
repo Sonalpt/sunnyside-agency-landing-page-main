@@ -42,7 +42,7 @@ body {
             list-style: none;
             display: flex;
             flex-direction: row;
-            padding-right: 20px;
+            padding-right: 10px;
             margin-bottom: 10px;
             li {
                 padding-right: 50px;
@@ -73,7 +73,7 @@ body {
     width: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 600px 600px 600px;
+    grid-template-rows: 650px 650px 650px;
     grid-template-areas: 
     "container__1 container__2"
     "container__3 container__4"
@@ -81,21 +81,27 @@ body {
     ;
     .grid-containers__container__1 {
         grid-area: container__1;
-        padding-top: 120px;
-        padding-left: 140px;
+        padding-top: 100px;
+        padding-left: 100px;
         padding-right: 80px;
         text-align: justify;
         h2 {
             font-family: 'Fraunces-Black',sans-serif;
-            font-size: 40px;
+            font-size: 42px;
+            color: #24303E;
         }
         p {
             font-family: 'Barlow-SemiBold',sans-serif;
             color: #808397;
+            font-size: 20px;
+            line-height: 1.8;
         }
         span {
             font-family: 'Fraunces-Black',sans-serif;
-            font-size: 18px;
+            font-size: 24px;
+            color: #24303E;
+            position: relative;
+            top: 10px;
         }
     }
     .grid-containers__container__2 {
@@ -120,15 +126,21 @@ body {
         text-align: justify;
         h2 {
             font-family: 'Fraunces-Black',sans-serif;
-            font-size: 40px;
+            font-size: 42px;
+            color: #24303E;
         }
         p {
             font-family: 'Barlow-SemiBold',sans-serif;
             color: #808397;
+            font-size: 20px;
+            line-height: 1.8;
         }
         span {
             font-family: 'Fraunces-Black',sans-serif;
-            font-size: 18px;
+            font-size: 24px;
+            color: #24303E;
+            position: relative;
+            top: 10px;
         }
     }
     .grid-containers__container__5 {
@@ -179,6 +191,128 @@ body {
             padding-right: 150px;
             position: relative;
             top: 350px;
+        }
+    }
+}
+
+
+
+.client-testimonials__title {
+    margin-top: 150px;
+    margin-bottom: 80px;
+    text-align: center;
+    color: #A7AAAD;
+    font-family: 'Fraunces-Black',sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.client-testimonials {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 150px;
+    .testimonial {
+        width: 33.3%;
+        text-align: center;
+        img {
+            border-radius: 300px;
+            margin-bottom: 30px;
+        }
+        p {
+            color: #5B636D;
+            font-family: 'Barlow-SemiBold',sans-serif;
+            font-size: 18px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        .author {
+            color: #24303E;
+            font-family: 'Fraunces-Black',sans-serif;
+            font-size: 18px;
+            margin: 0;
+            margin-bottom: 5px;
+        }
+        .occupation {
+            color: #A7AAAD;
+            font-family: 'Barlow-SemiBold',sans-serif;
+            font-size: 14px;
+        }
+    }
+}
+
+
+
+.grid-containers-2 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 447px;
+    grid-template-areas: 
+    "container-1 container-2 container-3 container-4"
+    ;
+    width: 100%;
+    .container-1 {
+        grid-area: container-1;
+        background: url(../images/desktop/image-gallery-milkbottles.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .container-2 {
+        grid-area: container-2;
+        background: url(../images/desktop/image-gallery-orange.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .container-3 {
+        grid-area: container-3;
+        background: url(../images/desktop/image-gallery-cone.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .container-4 {
+        grid-area: container-4;
+        background: url(../images/desktop/image-gallery-sugarcubes.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+
+
+footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    align-items: center;
+    background-color: #90D4C6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .sunnyside {
+        
+    }
+    .about {
+        padding-top: 30px;
+        font-family: 'Barlow-SemiBold', sans-serif;
+        font-size: 18px;
+        color: #458D7E;
+        ul {
+            text-align: center;
+            align-items: center;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            li {
+                padding-right: 70px;
+                padding-left: 70px;
+            }
+        }
+    }
+    .contact {
+        padding-top: 50px;
+        img {
+            padding-right: 20px;
+            padding-left: 30px;
         }
     }
 }
