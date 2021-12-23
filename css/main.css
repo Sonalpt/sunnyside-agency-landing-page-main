@@ -482,7 +482,7 @@ footer .contact img {
     -ms-grid-row: 2;
     -ms-grid-column: 1;
     grid-area: container__2;
-    padding-top: 30px;
+    padding-top: 80px;
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
@@ -509,7 +509,7 @@ footer .contact img {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
     grid-area: container__1;
-    background-image: url(../images/desktop/image-transform.jpg);
+    background-image: url(../images/mobile/image-transform.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -518,7 +518,7 @@ footer .contact img {
     -ms-grid-row: 3;
     -ms-grid-column: 1;
     grid-area: container__3;
-    background-image: url(../images/desktop/image-stand-out.jpg);
+    background-image: url(../images/mobile/image-stand-out.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -527,7 +527,7 @@ footer .contact img {
     -ms-grid-row: 4;
     -ms-grid-column: 1;
     grid-area: container__4;
-    padding-top: 30px;
+    padding-top: 80px;
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
@@ -554,7 +554,7 @@ footer .contact img {
     -ms-grid-row: 5;
     -ms-grid-column: 1;
     grid-area: container__5;
-    background-image: url(../images/desktop/image-graphic-design.jpg);
+    background-image: url(../images/mobile/image-graphic-design.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -565,7 +565,7 @@ footer .contact img {
     font-size: 28px;
     color: #24554A;
     position: relative;
-    top: 350px;
+    top: 400px;
   }
   .grid-containers .grid-containers__container__5 p {
     text-align: center;
@@ -575,13 +575,13 @@ footer .contact img {
     padding-left: 30px;
     padding-right: 30px;
     position: relative;
-    top: 350px;
+    top: 430px;
   }
   .grid-containers .grid-containers__container__6 {
     -ms-grid-row: 6;
     -ms-grid-column: 1;
     grid-area: container__6;
-    background-image: url(../images/desktop/image-photography.jpg);
+    background-image: url(../images/mobile/image-photography.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -592,7 +592,7 @@ footer .contact img {
     font-size: 28px;
     color: #052C3B;
     position: relative;
-    top: 350px;
+    top: 400px;
   }
   .grid-containers .grid-containers__container__6 p {
     text-align: center;
@@ -602,7 +602,7 @@ footer .contact img {
     padding-left: 30px;
     padding-right: 30px;
     position: relative;
-    top: 350px;
+    top: 430px;
   }
   .client-testimonials__title {
     margin-top: 80px;
